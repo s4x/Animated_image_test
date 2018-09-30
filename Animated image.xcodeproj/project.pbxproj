@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		33946092215FCDCA00B6D27C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33946091215FCDCA00B6D27C /* AppDelegate.swift */; };
-		33946094215FCDCA00B6D27C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33946093215FCDCA00B6D27C /* ViewController.swift */; };
 		33946097215FCDCA00B6D27C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33946095215FCDCA00B6D27C /* Main.storyboard */; };
 		33946099215FCDCB00B6D27C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33946098215FCDCB00B6D27C /* Assets.xcassets */; };
 		3394609C215FCDCB00B6D27C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3394609A215FCDCB00B6D27C /* LaunchScreen.storyboard */; };
+		339460A4215FD04500B6D27C /* GiphyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460A3215FD04500B6D27C /* GiphyService.swift */; };
+		339460A6215FD41700B6D27C /* AnimatedImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460A5215FD41700B6D27C /* AnimatedImagesViewController.swift */; };
+		339460A8215FD45500B6D27C /* AnimatedImageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460A7215FD45500B6D27C /* AnimatedImageType.swift */; };
+		339460B1215FDA1900B6D27C /* WebPImageDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460B0215FDA1900B6D27C /* WebPImageDecoder.swift */; };
+		339460B6215FDB2C00B6D27C /* SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 339460B5215FDB2C00B6D27C /* SHA1.m */; };
+		339460B9215FDCC400B6D27C /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460B7215FDCC400B6D27C /* GifCell.swift */; };
+		339460BA215FDCC400B6D27C /* GifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339460B8215FDCC400B6D27C /* GifCell.xib */; };
+		339460BD215FDCD900B6D27C /* MP4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460BB215FDCD900B6D27C /* MP4Cell.swift */; };
+		339460BE215FDCD900B6D27C /* MP4Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339460BC215FDCD900B6D27C /* MP4Cell.xib */; };
+		339460C1215FDCF200B6D27C /* WebPCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460BF215FDCF200B6D27C /* WebPCell.swift */; };
+		339460C2215FDCF200B6D27C /* WebPCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 339460C0215FDCF200B6D27C /* WebPCell.xib */; };
+		339460C421611C6400B6D27C /* MP4Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460C321611C6400B6D27C /* MP4Decoder.swift */; };
+		339460C621611CAD00B6D27C /* TemporaryVideoStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339460C521611CAD00B6D27C /* TemporaryVideoStorage.swift */; };
+		CC16F41D55ED0DF6C7230351 /* Pods_Animated_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE209368D99BAA2F348CB1B /* Pods_Animated_image.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3394608E215FCDCA00B6D27C /* Animated image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33946091215FCDCA00B6D27C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33946093215FCDCA00B6D27C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33946096215FCDCA00B6D27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33946098215FCDCB00B6D27C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3394609B215FCDCB00B6D27C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3394609D215FCDCB00B6D27C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		339460A3215FD04500B6D27C /* GiphyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyService.swift; sourceTree = "<group>"; };
+		339460A5215FD41700B6D27C /* AnimatedImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImagesViewController.swift; sourceTree = "<group>"; };
+		339460A7215FD45500B6D27C /* AnimatedImageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageType.swift; sourceTree = "<group>"; };
+		339460B0215FDA1900B6D27C /* WebPImageDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPImageDecoder.swift; sourceTree = "<group>"; };
+		339460B3215FDB1300B6D27C /* SHA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHA1.h; sourceTree = "<group>"; };
+		339460B4215FDB2C00B6D27C /* Animated image-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animated image-Bridging-Header.h"; sourceTree = "<group>"; };
+		339460B5215FDB2C00B6D27C /* SHA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHA1.m; sourceTree = "<group>"; };
+		339460B7215FDCC400B6D27C /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
+		339460B8215FDCC400B6D27C /* GifCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GifCell.xib; sourceTree = "<group>"; };
+		339460BB215FDCD900B6D27C /* MP4Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4Cell.swift; sourceTree = "<group>"; };
+		339460BC215FDCD900B6D27C /* MP4Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MP4Cell.xib; sourceTree = "<group>"; };
+		339460BF215FDCF200B6D27C /* WebPCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPCell.swift; sourceTree = "<group>"; };
+		339460C0215FDCF200B6D27C /* WebPCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebPCell.xib; sourceTree = "<group>"; };
+		339460C321611C6400B6D27C /* MP4Decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4Decoder.swift; sourceTree = "<group>"; };
+		339460C521611CAD00B6D27C /* TemporaryVideoStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemporaryVideoStorage.swift; sourceTree = "<group>"; };
+		3FE209368D99BAA2F348CB1B /* Pods_Animated_image.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Animated_image.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7999F1B6775C6C91D2435424 /* Pods-Animated image.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated image.release.xcconfig"; path = "Pods/Target Support Files/Pods-Animated image/Pods-Animated image.release.xcconfig"; sourceTree = "<group>"; };
+		E392473BFCA5987D846B238B /* Pods-Animated image.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated image.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Animated image/Pods-Animated image.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC16F41D55ED0DF6C7230351 /* Pods_Animated_image.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				33946090215FCDCA00B6D27C /* Animated image */,
 				3394608F215FCDCA00B6D27C /* Products */,
+				4325D88972CB72D7356EA5F5 /* Pods */,
+				C32A435016EC1A81547058EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,61 @@
 		33946090215FCDCA00B6D27C /* Animated image */ = {
 			isa = PBXGroup;
 			children = (
+				339460B2215FDAFF00B6D27C /* Helpers */,
+				339460A9215FD50E00B6D27C /* Cells */,
 				33946091215FCDCA00B6D27C /* AppDelegate.swift */,
-				33946093215FCDCA00B6D27C /* ViewController.swift */,
 				33946095215FCDCA00B6D27C /* Main.storyboard */,
 				33946098215FCDCB00B6D27C /* Assets.xcassets */,
 				3394609A215FCDCB00B6D27C /* LaunchScreen.storyboard */,
 				3394609D215FCDCB00B6D27C /* Info.plist */,
+				339460A3215FD04500B6D27C /* GiphyService.swift */,
+				339460A5215FD41700B6D27C /* AnimatedImagesViewController.swift */,
+				339460A7215FD45500B6D27C /* AnimatedImageType.swift */,
 			);
 			path = "Animated image";
+			sourceTree = "<group>";
+		};
+		339460A9215FD50E00B6D27C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				339460B7215FDCC400B6D27C /* GifCell.swift */,
+				339460B8215FDCC400B6D27C /* GifCell.xib */,
+				339460BB215FDCD900B6D27C /* MP4Cell.swift */,
+				339460BC215FDCD900B6D27C /* MP4Cell.xib */,
+				339460BF215FDCF200B6D27C /* WebPCell.swift */,
+				339460C0215FDCF200B6D27C /* WebPCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		339460B2215FDAFF00B6D27C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				339460B0215FDA1900B6D27C /* WebPImageDecoder.swift */,
+				339460B3215FDB1300B6D27C /* SHA1.h */,
+				339460B5215FDB2C00B6D27C /* SHA1.m */,
+				339460B4215FDB2C00B6D27C /* Animated image-Bridging-Header.h */,
+				339460C321611C6400B6D27C /* MP4Decoder.swift */,
+				339460C521611CAD00B6D27C /* TemporaryVideoStorage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4325D88972CB72D7356EA5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E392473BFCA5987D846B238B /* Pods-Animated image.debug.xcconfig */,
+				7999F1B6775C6C91D2435424 /* Pods-Animated image.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C32A435016EC1A81547058EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FE209368D99BAA2F348CB1B /* Pods_Animated_image.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 339460A0215FCDCB00B6D27C /* Build configuration list for PBXNativeTarget "Animated image" */;
 			buildPhases = (
+				3A8488F49156786416F2D7FE /* [CP] Check Pods Manifest.lock */,
 				3394608A215FCDCA00B6D27C /* Sources */,
 				3394608B215FCDCA00B6D27C /* Frameworks */,
 				3394608C215FCDCA00B6D27C /* Resources */,
+				C54C4FB8BF460C64301ECB91 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +178,7 @@
 				TargetAttributes = {
 					3394608D215FCDCA00B6D27C = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -123,20 +206,79 @@
 			buildActionMask = 2147483647;
 			files = (
 				3394609C215FCDCB00B6D27C /* LaunchScreen.storyboard in Resources */,
+				339460BE215FDCD900B6D27C /* MP4Cell.xib in Resources */,
 				33946099215FCDCB00B6D27C /* Assets.xcassets in Resources */,
+				339460C2215FDCF200B6D27C /* WebPCell.xib in Resources */,
+				339460BA215FDCC400B6D27C /* GifCell.xib in Resources */,
 				33946097215FCDCA00B6D27C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A8488F49156786416F2D7FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Animated image-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54C4FB8BF460C64301ECB91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Animated image/Pods-Animated image-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/GiphyCoreSDK/GiphyCoreSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke-FLAnimatedImage-Plugin/NukeFLAnimatedImagePlugin.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GiphyCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NukeFLAnimatedImagePlugin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Animated image/Pods-Animated image-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3394608A215FCDCA00B6D27C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33946094215FCDCA00B6D27C /* ViewController.swift in Sources */,
+				339460B6215FDB2C00B6D27C /* SHA1.m in Sources */,
+				339460C621611CAD00B6D27C /* TemporaryVideoStorage.swift in Sources */,
+				339460B1215FDA1900B6D27C /* WebPImageDecoder.swift in Sources */,
+				339460A6215FD41700B6D27C /* AnimatedImagesViewController.swift in Sources */,
 				33946092215FCDCA00B6D27C /* AppDelegate.swift in Sources */,
+				339460B9215FDCC400B6D27C /* GifCell.swift in Sources */,
+				339460C1215FDCF200B6D27C /* WebPCell.swift in Sources */,
+				339460BD215FDCD900B6D27C /* MP4Cell.swift in Sources */,
+				339460A8215FD45500B6D27C /* AnimatedImageType.swift in Sources */,
+				339460C421611C6400B6D27C /* MP4Decoder.swift in Sources */,
+				339460A4215FD04500B6D27C /* GiphyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,36 +422,45 @@
 		};
 		339460A1215FCDCB00B6D27C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E392473BFCA5987D846B238B /* Pods-Animated image.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C79BTZZA2Z;
 				INFOPLIST_FILE = "Animated image/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sn.Animated-image";
+				PRODUCT_BUNDLE_IDENTIFIER = sn.animatedimage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "Animated image/Helpers/Animated image-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		339460A2215FCDCB00B6D27C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7999F1B6775C6C91D2435424 /* Pods-Animated image.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C79BTZZA2Z;
 				INFOPLIST_FILE = "Animated image/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "sn.Animated-image";
+				PRODUCT_BUNDLE_IDENTIFIER = sn.animatedimage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "Animated image/Helpers/Animated image-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
